@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da página</title>
+    <style>
+        .container{
+            max-width: 1100px;
+            border: 2px solid red;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .sidebar{
+            border: 2px solid purple;
+            width: 30%;
+            max-width: 300px;
+            height: 600px;
+        }
+        .content{
+            border: 2px solid green;
+            float: right;
+            width: 65%;
+            min-width: 460px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Wrapper layout</h1>
+    <div class="container">
+        <div class="sidebar">
+
+        </div>
+        <div class="content">
+            {{ content }}
+        </div>
+        
+    </div>
+    
+</body>
+</html>
