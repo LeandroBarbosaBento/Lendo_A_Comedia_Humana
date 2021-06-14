@@ -1,0 +1,10 @@
+---
+layout: wrapper
+---
+
+    {% for post in site.posts %}
+    <div class="card">
+        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+        <p>{{ post.imgCard }}</p>
+    </div>    
+    {% endfor %}
