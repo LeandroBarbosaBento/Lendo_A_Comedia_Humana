@@ -4,50 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título da página</title>
-    <style>
-        .container{
-            max-width: 1100px;
-            border: 2px solid red;
-            margin: auto;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-        }
-        .sidebar{
-            border: 2px solid purple;
-            width: 30%;
-            max-width: 300px;
-            height: 100vh;
-        }
-        .content{
-            border: 2px solid green;
-            float: right;
-            width: 65%;
-            min-width: 460px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
+    <link rel="stylesheet" href="{{site.baseurl}}/css/structure.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/iconmoon/style.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/home.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/post.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/sidebar.css">
 
-        .card{
-            border: 2px solid yellow;
-            margin: 5px;
-            display: block;
-            min-width: 330px;
-            width: 47%;
-            height: 330px;
-        }
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oranienbaum&family=Poiret+One&family=Sacramento&display=swap" rel="stylesheet">
+    <meta name="description" content="Está página tem como objetivo compartilhar as minhas experiências de leitura de todos os livros da Comédia Humana do escritor francês Honoré de Balzac. Aqui se encontram pequenos textos sobre cada uma dos livros lidos."> 
+    <meta name="author" content="Leandro">
+    <meta name="keywords" content="literatura francesa, Honoré de Balzac, Comédia Humana">
 
-    </style>
+    <title>Lendo A Comédia Humana</title>
+
 </head>
 <body>
-    <h1>Wrapper layout</h1>
+
     <div class="container">
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
+            <div id="logo">
+                <img src="Imagens_Home/Balzac.jpg" alt="ilustração em preto e branco do escritor francês Honoré de Balzac">
+                <div>
+                    <span>lendo</span>
+                    <h1>A Comédia <br> Humana</h1>
+                </div>    
+            </div>
+
+            <div id="quem">
+                <h2>Quem faz...</h2>
+    
+                <div class="quem_aux"> 
+                    <img src="Imagens_Home/Quem_faz_P.jpg" alt="Imagem da pessoa que criou está página.">
+                        <p>Leandro Barbosa <br>
+                            <a href="https://github.com/LeandroBarbosaBento" target="_blank"><span class="icon-github"></span></a>
+                            <a href="https://www.linkedin.com/in/LeandroBarbosaBento/" target="_blank"><span class="icon-linkedin"></span></a>
+                        </p>
+                </div>
+            </div>
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="02_O_que_e_Quem.html">O que é essa página e quem a faz</a></li>
+                    <li><a href="03_A_Comedia_Humana.html">O que é a Comédia Humana</a></li>
+                    <li><a href="04_Historico.html">Livros lidos e não lidos</a></li>
+                    <li><a href="05_Contato.html">Contato</a></li>
+                </ul>
+                
+            </nav>
 
         </div>
+
+
         <div class="content">
             {{ content }}
         </div>

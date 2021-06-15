@@ -1,0 +1,8 @@
+.card{
+    border: 2px solid yellow;
+    margin: 5px;
+    display: block;
+    min-width: 330px;
+    width: 47%;
+    height: 330px;
+}
