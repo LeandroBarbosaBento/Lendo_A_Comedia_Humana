@@ -10,6 +10,7 @@
 }
 
 /*LOGO DO SITE*/
+
 #logo {
     width: 98%;
     max-width: 500px;
@@ -130,12 +131,12 @@
     text-align: center;
     line-height: 38px;
     color: white;
-    background-color: rgba(153, 153, 153, 0.5);
+    background-color: rgba(153, 153, 153, 0.55);
     display: block;
     padding: 3px;
     margin: 5px 2px;
     border: 3px solid white;
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 5px black;
     transition: all .5s;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.301);
 }
