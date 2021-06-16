@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "O baile de Sceaux"
-imgCard: "Endereço da imagem da tela inicial em variável do front matter"
+imgHome: "Imagens_Home/resenhas/002_header_post_Sceaux.jpg"
 data: "30 de novembro de 2020"
 descricao: "Pequena descrição do livro a ser escrita no front matter de cada post. Pequena descrição do livro a ser escrita no front matter de cada post. Pequena descrição do livro a ser escrita no front matter de cada post. Pequena descrição do livro a ser escrita no front matter de cada post. Pequena descrição do livro a ser escrita no front matter de cada post"
 ---

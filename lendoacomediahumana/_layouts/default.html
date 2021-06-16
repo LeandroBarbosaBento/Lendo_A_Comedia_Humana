@@ -5,17 +5,15 @@ layout: wrapper
     {% for post in site.posts %}
         <div class="post">
             <header>
-                <a class="teste" href="{{ post.url }}"> 
-                    <img class="TEMPORARIA" src="#" alt="">      
+                <a href="{{ post.url }}"> 
+                    <img src="{{site.baseurl}}/{{post.imgHome}}" alt="">      
                     <div class="info">
                         <h1>{{ post.title }}</h1>
                         <p>{{ post.data }}</p>
                     </div>
                 </a>  
             </header>
-            <p class="description"> {{ post.descricao }}</p>
-            <a class="button" href="{{ post.url }}">Leia mais...</a>
+            <p class="description"> {{ post.descricao }} </p>
+            <a class="button" href="{{ post.url }}">Leia mais</a>
         </div>   
     {% endfor %}
-
-    

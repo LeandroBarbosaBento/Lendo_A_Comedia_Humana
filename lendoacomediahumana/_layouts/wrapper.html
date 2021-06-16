@@ -21,6 +21,18 @@
 <body>
 
     <div class="container">
+        
+        <input type="checkbox" id="check">
+        <label for="check" id="hamburguer_label">
+            <img id="hamburguer_img" src="{{site.baseurl}}/Imagens_Home/iconfinder_MenuHamburger.svg" alt="Ícone para abrir o menu (para formato mobile)">
+        </label>
+
+        <div id="topBar"> 
+            <img src="{{site.baseurl}}/Imagens_Home/Balzac_mobile.jpg" alt="ilustração em preto e branco do escritor francês Honoré de Balzac">
+            <span>lendo</span>
+            <h1>A Comédia Humana</h1>
+        </div>
+
         <div class="sidebar" id="sidebar">
             
                 <div id="logo">
@@ -47,11 +59,19 @@
 
             <nav id="menu">
                 <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="02_O_que_e_Quem.html">O que é essa página e quem a faz</a></li>
-                    <li><a href="03_A_Comedia_Humana.html">O que é a Comédia Humana</a></li>
-                    <li><a href="04_Historico.html">Livros lidos e não lidos</a></li>
-                    <li><a href="05_Contato.html">Contato</a></li>
+
+                    {% for page in site.pages %}
+                        <br>
+                        {% if page.title != "" %}
+                            <a href="{{page.url}} ">{{page.title}} </a>
+                        {% endif %}
+                    {% endfor %}
+
+                    <li><a href="{{site.baseurl}}/index.html">Início</a></li>
+                    <li><a href="{{site.baseurl}}/02_O_que_e_Quem.html">O que é essa página e quem a faz</a></li>
+                    <li><a href="{{site.baseurl}}/03_A_Comedia_Humana.html">O que é a Comédia Humana</a></li>
+                    <li><a href="{{site.baseurl}}/04_Historico.html">Livros lidos e não lidos</a></li>
+                    <li><a href="{{site.baseurl}}/05_Contato.html">Contato</a></li>
                 </ul>
                 
             </nav>

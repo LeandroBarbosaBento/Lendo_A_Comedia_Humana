@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Memórias de duas jovens esposas"
-imgCard: "Endereço da imagem da tela inicial em variável do front matter"
+imgHome: "Imagens_Home/resenhas/003_header_post_MemoriasDeDuasJovensEsposas_Blois.jpg"
 data: "30 de novembro de 2020"
 descricao: "Pequena descrição do livro a ser escrita no front matter de cada post"
 ---
