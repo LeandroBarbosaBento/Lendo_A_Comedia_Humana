@@ -30,12 +30,14 @@
     width: 40px;
     color: white;
     background-color: white;
+    margin-left: 10px;
 }
 #hamburguer_label{
     padding: 3px;
     position: fixed;
     top: 0;
     z-index: 3;
+    transition: all .5s;
 }
 
 input[type="checkbox"] {
@@ -46,6 +48,12 @@ input[type="checkbox"]:checked ~ #sidebar {
     box-shadow: 0px 0px 10px rgba(97, 97, 97, 0.8);
 }
 
+input[type="checkbox"]:checked ~ #hamburguer_label {
+    box-shadow: 0px 0px 10px rgba(97, 97, 97, 0.596);
+    background-color: white;
+    width: 330px;
+    box-sizing: border-box;
+}
 
 #topBar img {
     align-self: center;
@@ -75,8 +83,7 @@ input[type="checkbox"]:checked ~ #sidebar {
     padding: 40px 0px 0px 0px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 #logo div {
@@ -193,7 +200,7 @@ input[type="checkbox"]:checked ~ #sidebar {
     padding: 3px;
     margin: 5px 2px;
     border: 3px solid white;
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 5px rgb(20, 20, 20);
     transition: all .5s;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.301);
 }
@@ -202,6 +209,7 @@ input[type="checkbox"]:checked ~ #sidebar {
     background-color: white;
     color: black;
     border: 3px solid white;
+    text-shadow: none;
 
 }
 
@@ -214,5 +222,8 @@ input[type="checkbox"]:checked ~ #sidebar {
 @media screen and (max-width: 1043px){ /* Configurações caso a tela tenha ATÉ 1000px (<) */
     #sidebar{
         transform: translateX(-350px);
+    }
+    #logo {
+        margin-top: 30px;
     }
 }
