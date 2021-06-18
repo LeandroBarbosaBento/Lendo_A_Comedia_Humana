@@ -1,30 +1,39 @@
 .post {
-    margin: 10px auto;
+    margin: 5px;
     background-color: white;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.342);
-    width: 100%;
-    max-width: 360px;
+    width: 48%;
+    max-width: 380px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .post header {
     width: 100%;
     height: 150px;
     position: relative;
+    margin-bottom: 5px;
 }
 
 .post header a:hover .info h1, .post header a:hover .info p {
-    color:#222222;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0);
 }
 
-/****************************************************************************/
-.TEMPORARIA{
-    display: block;
+.post header img{
     width: 100%;
-    border: 3px solid red;
+    position: relative;
+    max-height: 152px;
+    min-height: 148px;
+    filter: blur(1px) brightness(90%);
+    transition: all .5s;
 }
-/****************************************************************************/
 
+.post header a:hover img {
+    color:#222222;
+    filter: blur(3px) brightness(99%);
+}
 
 .info {
     position: absolute;
@@ -33,65 +42,85 @@
     max-height: 180px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    
+    justify-content: center;
 }
 
 .info h1 {
     font-family: 'Abril Fatface', cursive;
-    font-size: min(10vw, 30px);
+    font-size: 30px;
     color: white;
     text-shadow: 0px 0px 5px rgba(0, 0, 0);
     margin: 0;
     text-align: center;
-
-}
-
-.post .info p {
-    font-family: 'Abril Fatface', cursive;
-    font-size: min(3vw, 12px);
-    color: white;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0);
-    text-align: center;
-
-}
-
-
-.post header img{
-    width: 100%;
-    position: relative;
-    max-height: 152px;
-    filter: blur(1px) brightness(85%);
-}
-
-
-.description {
-    font-family: 'Merriweather', serif;
-    margin-top: 2px;
-    max-height: 130px;
-    overflow: hidden;
-    font-size: min(5vw, 14px);
-    color: #222222;
-    padding: 0px 7px 7px 7px;
-    text-align: justify;
-    display: block;
-}
-
-.button {
-    display: block;
-    width: 100%;
-    font-size: max(1.5vw, 20px);
-    line-height: 1.5vw;
-    padding-bottom: 10px;
-    margin: 0;
-    text-align: center;
-    font-family: 'Oranienbaum', serif;
-    text-decoration: none;
-    color: black;
     transition: all .5s;
 }
 
-.button:hover {
+.info p {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 14px;
     color: white;
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0);
+    text-align: center;
+    transition: all .5s;
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    font-size: 14px;
+    color: #222222;
+    padding: 10px;
+    text-align: justify;
+    display: inline-block;
+}
+
+.button {
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 85%;
+    margin: 5px auto;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px rgba(100, 100, 100, 0.856);
+    color: white;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.342);
+    transition: all .5s;
+    background-color: rgba(155, 154, 154, 0.466);
+}
+
+.button:hover {
+    color: rgb(160, 160, 160);
+    background-color: white;
+    border: 1px solid rgb(160, 160, 160);
+    text-shadow: 0px 0px 5px rgba(160, 160, 160, 0.603);
+}
+
+
+@media screen and (max-width: 1043px){
+    .post{
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 565px){
+    .post{
+        width: 90%;
+        max-width: none;
+        min-width: 0;
+    }
+    .post header img{
+        min-height: none;
+    }
+    .post header img{
+        width: 100%;
+        position: relative;
+        max-height: 152px;
+        min-height: 148px;
+        filter: blur(1px) brightness(90%);
+        transition: all .5s;
+    }
 }

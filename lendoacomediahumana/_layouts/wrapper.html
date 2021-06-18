@@ -64,11 +64,18 @@
 
             <nav id="menu">
                 <ul>
+                    {% for page in site.pages %}
+                        {% if page.title == "Inicio" %}
+                            <a href="{{page.url}} ">{{page.title}} </a>
+                            <p>{{page.url}}</p>
+                        {% endif %}
+                    {% endfor %}
 
                     {% for page in site.pages %}
                         <br>
-                        {% if page.title != "" %}
+                        {% if page.layout == "page" %}
                             <a href="{{page.url}} ">{{page.title}} </a>
+                            <p>{{page.url}}</p>
                         {% endif %}
                     {% endfor %}
 

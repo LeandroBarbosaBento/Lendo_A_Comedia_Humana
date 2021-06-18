@@ -2,7 +2,7 @@
 layout: post
 title:  "O baile de Sceaux"
 imgHome: "Imagens_Home/resenhas/002_header_post_Sceaux.jpg"
-data: "30 de novembro de 2020"
+date: "2020-11-30 00:00:00"
 descricao: "Pequena descrição do livro a ser escrita no front matter de cada post. Pequena descrição do livro a ser escrita no front matter de cada post. Pequena descrição do livro a ser escrita no front matter de cada post. Pequena descrição do livro a ser escrita no front matter de cada post. Pequena descrição do livro a ser escrita no front matter de cada post"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
