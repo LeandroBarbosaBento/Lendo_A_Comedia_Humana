@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/css/structure.css">
     <link rel="stylesheet" href="{{site.baseurl}}/css/iconmoon/style.css">
     <link rel="stylesheet" href="{{site.baseurl}}/css/home.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/css/post.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/post_page.css">
     <link rel="stylesheet" href="{{site.baseurl}}/css/sidebar.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oranienbaum&family=Poiret+One&family=Sacramento&display=swap" rel="stylesheet">
@@ -66,30 +66,19 @@
                 <ul>
                     {% for page in site.pages %}
                         {% if page.title == "Inicio" %}
-                            <a href="{{page.url}} ">{{page.title}} </a>
-                            <p>{{page.url}}</p>
+                            <li><a href="{{page.url}}">Início</a></li>
                         {% endif %}
                     {% endfor %}
-
                     {% for page in site.pages %}
-                        <br>
                         {% if page.layout == "page" %}
-                            <a href="{{page.url}} ">{{page.title}} </a>
-                            <p>{{page.url}}</p>
+                    <li><a href="{{page.url}}">{{page.title}} </a></li>
                         {% endif %}
                     {% endfor %}
-
-                    <li><a href="{{site.baseurl}}/index.html">Início</a></li>
-                    <li><a href="{{site.baseurl}}/02_O_que_e_Quem.html">O que é essa página e quem a faz</a></li>
-                    <li><a href="{{site.baseurl}}/03_A_Comedia_Humana.html">O que é a Comédia Humana</a></li>
-                    <li><a href="{{site.baseurl}}/04_Historico.html">Livros lidos e não lidos</a></li>
-                    <li><a href="{{site.baseurl}}/05_Contato.html">Contato</a></li>
                 </ul>
                 
             </nav>
 
         </div>
-
 
         <div class="content">
             {{ content }}

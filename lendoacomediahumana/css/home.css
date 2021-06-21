@@ -125,3 +125,8 @@
     }
 }
 
+@media screen and (max-width: 330px){ /* Configurações caso a tela tenha ATÉ 1000px (<) */
+    .info h1 {
+        font-size: 25px;
+    }
+}

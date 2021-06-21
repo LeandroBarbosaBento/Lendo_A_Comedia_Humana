@@ -169,7 +169,7 @@ input[type="checkbox"]:checked ~ #hamburguer_label {
 
 .quem_aux a:hover {
     color: white;
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);
 }
 
 /*MENUS*/
@@ -250,7 +250,4 @@ input[type="checkbox"]:checked ~ #hamburguer_label {
         position: relative;
         left: 10px;
     }
-    
-
-
 }
