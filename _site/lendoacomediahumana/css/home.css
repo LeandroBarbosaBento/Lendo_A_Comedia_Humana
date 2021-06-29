@@ -108,7 +108,7 @@
 
 @media screen and (max-width: 565px){
     .post{
-        width: 90%;
+        width: 95%;
         max-width: none;
         min-width: 0;
     }
@@ -122,5 +122,11 @@
         min-height: 148px;
         filter: blur(1px) brightness(90%);
         transition: all .5s;
+    }
+}
+
+@media screen and (max-width: 330px){ /* Configurações caso a tela tenha ATÉ 1000px (<) */
+    .info h1 {
+        font-size: 25px;
     }
 }
