@@ -8,8 +8,10 @@ descricao: "Descrição que aparecerá no card da home page"
 
 
 <figure class="image">
-  <img src="/Imagens_Home/balzac.jpg" alt="DESCRIÇÃO DA IMAGEM">
+  <img src="/images_posts/002-o-baile-de-sceaux/BalzacBaileSceaux.jpg" alt="DESCRIÇÃO DA IMAGEM">
   <figcaption>LEGENDA DA IMAGEM</figcaption>
+
+  <a target="_blank" href=""></a>
 </figure>
 
 >Exemplo de citação (usar o sinal > no começo da linha)
