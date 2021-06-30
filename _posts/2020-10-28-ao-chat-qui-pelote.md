@@ -6,7 +6,9 @@ date: "2020-10-28 00:00:00"
 descricao: "A jovem Augustina desafia a sua família para se entregar a uma paixão por uma pessoa pertencente a um mundo e sociedade totalmente diferentes dos dela. Aqui vemos 1o choque de dois ambientes sociais dentro da história de um amor'."
 ---
 
-<figure class="image">
+<<<<<<< HEAD:_posts/2020-10-28-ao-chat-qui-pelote.md
+=======
+figure class="image">
   <img src="/images_posts/001-ao-chat-qui-pelote/perceived-sentinel-stranger.jpg" alt="DESCRIÇÃO DA IMAGEM">
   <figcaption>Ilustração da Maison Du Chat-Qui-Pelote feita por Édouard Toudouze. Imagem retirada de <a target="_blank" href="https://www.oldbookillustrations.com/titles/la-maison-du-chat-qui-pelote/">Illustrations from La maison du chat qui pelote</a>. Acessado em 06/11/2020
 </figcaption>
