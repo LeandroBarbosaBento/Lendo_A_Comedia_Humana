@@ -1,0 +1,36 @@
+.artigo h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: min(6vw, 40px);
+    text-align: center;
+}
+
+.artigo p {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    color: #222222;
+    text-align: justify;
+}
+
+.artigo .citacao {
+    margin-left: 100px;
+    font-size: 14px;
+}
+
+.artigo figure {
+    width: 80%;
+    margin: auto;
+}
+.artigo figure img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+.artigo figure figcaption{
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    color: #222222;
+    padding: 10px;
+    text-align: center;
+}
