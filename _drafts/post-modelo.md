@@ -8,7 +8,7 @@ descricao: "Descrição que aparecerá no card da home page"
 
 
 <figure class="image">
-  <img src="/images_posts/002-o-baile-de-sceaux/BalzacBaileSceaux.jpg" alt="DESCRIÇÃO DA IMAGEM">
+  <img src="{{site.baseurl}}/images_posts/002-o-baile-de-sceaux/BalzacBaileSceaux.jpg" alt="DESCRIÇÃO DA IMAGEM">
   <figcaption>LEGENDA DA IMAGEM</figcaption>
 
   <a target="_blank" href=""></a>

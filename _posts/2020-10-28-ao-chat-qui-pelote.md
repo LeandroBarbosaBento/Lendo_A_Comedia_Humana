@@ -7,7 +7,7 @@ descricao: "A jovem Augustina desafia a sua família para se entregar a uma paix
 ---
 
 <figure class="image">
-  <img src="/images_posts/001-ao-chat-qui-pelote/perceived-sentinel-stranger.jpg" alt="DESCRIÇÃO DA IMAGEM">
+  <img src="{{site.baseurl}}/images_posts/001-ao-chat-qui-pelote/perceived-sentinel-stranger.jpg" alt="DESCRIÇÃO DA IMAGEM">
   <figcaption>Ilustração da Maison Du Chat-Qui-Pelote feita por Édouard Toudouze. Imagem retirada de <a target="_blank" href="https://www.oldbookillustrations.com/titles/la-maison-du-chat-qui-pelote/">Illustrations from La maison du chat qui pelote</a>. Acessado em 06/11/2020
 </figcaption>
 </figure>
@@ -18,14 +18,14 @@ Nas primeiras páginas tem-se uma descrição detalhada, e às vezes bem cansati
 
 
 <figure class="image">
-  <img src="/images_posts/001-ao-chat-qui-pelote/Rue_Saint_Denis.jpg" alt="DESCRIÇÃO DA IMAGEM">
+  <img src="{{site.baseurl}}/images_posts/001-ao-chat-qui-pelote/Rue_Saint_Denis.jpg" alt="DESCRIÇÃO DA IMAGEM">
   <figcaption>Ilustração da Rue Saint Denis, em Paris. Imagem retirada do artigo <a target="_blank" href="https://pt.wikipedia.org/wiki/La_Maison_du_chat-qui-pelote">La Maison Du Chat-Qui-Pelote da Wikipedia</a>. Acessado em 06/11/2020
 </figcaption>
 </figure>
 
 
 <figure class="image">
-  <img src="/images_posts/001-ao-chat-qui-pelote/Rue_Saint_Denis_Photo.jpg" alt="DESCRIÇÃO DA IMAGEM">
+  <img src="{{site.baseurl}}/images_posts/001-ao-chat-qui-pelote/Rue_Saint_Denis_Photo.jpg" alt="DESCRIÇÃO DA IMAGEM">
   <figcaption>Foto da Rue Saint Denis, em Paris. Imagem retirada do artigo <a target="_blank" href="https://www.itinerariodeviagem.com/destinos/varios-outros-arrondissement/">VÁRIOS OUTROS ARRONDISSEMENTS</a>. Acessado em 06/11/2020</figcaption>
 </figure>
 
