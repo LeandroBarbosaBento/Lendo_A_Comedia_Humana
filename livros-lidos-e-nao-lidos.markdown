@@ -5,7 +5,7 @@ title: Livros lidos e não lidos
 
 
 <figure class="image">
-  <img src="/Imagens_Home/balzac.jpg" alt="asddf">
+  <img src="{{site.baseurl}}/Imagens_Home/balzac.jpg" alt="asddf">
   <figcaption>Teste de legenda   Quasi dolore minima sapiente cumque beatae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium dolorum repellat rem dolores possimus quaerat, inventore est qui minus ut, facere enim, labore nesciunt? Quasi dolore minima sapiente cumque beatae</figcaption>
 </figure>
 
