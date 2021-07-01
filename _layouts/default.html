@@ -5,7 +5,7 @@ layout: wrapper
     {% for post in site.posts %}
         <div class="post">
             <header>
-                <a href="{{ post.url }}"> 
+                <a href="{{site.baseurl}}/{{ post.url }}"> 
                     <img src="{{site.baseurl}}/{{post.imgHome}}" alt="">      
                     <div class="info">
                         <h1>{{ post.title }}</h1>
