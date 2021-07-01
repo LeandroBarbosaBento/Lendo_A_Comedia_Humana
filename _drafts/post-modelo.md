@@ -16,3 +16,4 @@ descricao: "Descrição que aparecerá no card da home page"
 
 >Exemplo de citação (usar o sinal > no começo da linha)
 
+[Link para outro post do site]({% post_url 2010-07-21-name-of-post %})
